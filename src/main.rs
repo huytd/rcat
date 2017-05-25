@@ -7,7 +7,7 @@ use syntect::easy::HighlightFile;
 use std::io::BufRead;
 
 fn main() {
-    let ss = SyntaxSet::load_defaults_newlines(); // note we load the version with newlines
+    let ss = SyntaxSet::load_defaults_newlines();
     let ts = ThemeSet::load_defaults();
 
     let args: Vec<String> = std::env::args().collect();
