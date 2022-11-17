@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["Huy <kingbazoka@gmail.com>"]
 
 [dependencies]
-syntect = "*"
+syntect = "1.3.0"
